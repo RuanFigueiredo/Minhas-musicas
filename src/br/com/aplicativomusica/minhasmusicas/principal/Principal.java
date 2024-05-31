@@ -23,9 +23,9 @@ public class Principal {
         for (int i = 0; i < 5000; i++) {
           meuPodcast.reproduz();
         }
-g
+
         for (int i = 0; i < 1000; i++) {
-            meuPodcast.curte();g
+            meuPodcast.curte();
         }
     }
 }
