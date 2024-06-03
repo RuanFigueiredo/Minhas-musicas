@@ -1,5 +1,6 @@
 package br.com.aplicativomusica.minhasmusicas.principal;
 
+import br.com.aplicativomusica.minhasmusicas.modelos.MinhasPreferidas;
 import br.com.aplicativomusica.minhasmusicas.modelos.Musica;
 import br.com.aplicativomusica.minhasmusicas.modelos.Podcast;
 
@@ -27,5 +28,10 @@ public class Principal {
         for (int i = 0; i < 1000; i++) {
             meuPodcast.curte();
         }
+
+        MinhasPreferidas preferidas = new MinhasPreferidas();
+        preferidas.inclui(meuPodcast);
+        preferidas.inclui(minhaMusica);
+
     }
 }
